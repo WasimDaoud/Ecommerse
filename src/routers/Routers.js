@@ -13,6 +13,7 @@ const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="home" />} />
+      <Route path="/Ecommerse" element={<Home />} />
       <Route path="home" element={<Home />} />
       <Route path="cart" element={<Cart />} />
       <Route path="shop" element={<Shop />} />
@@ -20,7 +21,6 @@ const Routers = () => {
       <Route path="signup" element={<Signup />} />
       <Route path="login" element={<Login />} />
       <Route path="checkout" element={<Checkout />} />
-      <Route path="*" element={<Home />} />
     </Routes>
   );
 };
