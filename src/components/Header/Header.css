@@ -1,0 +1,144 @@
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.logo img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.logo h1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+  margin-bottom: 0px;
+}
+
+.menu li:hover a {
+  color: black;
+}
+
+.navItem {
+  font-weight: 500;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.navActive {
+  font-weight: 900;
+}
+
+.nav-icons {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.ri-shopping-cart-2-line {
+  font-size: 1.4rem;
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ri-shopping-cart-2-line:hover {
+  font-size: 1.4rem;
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-icons span img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  top: 25%;
+  right: -5px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.7rem;
+}
+
+/* mobile icon and overlay */
+.ri-menu-line {
+  display: none;
+  cursor: pointer;
+}
+.mobile-icon {
+  width: 250px;
+  height: 100vh;
+  font-size: 1.3rem;
+  background-color: white;
+  color: var(--primary-color);
+  z-index: 100;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.mobile-icon i {
+  font-size: 25px;
+  margin-left: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.733);
+  z-index: 99;
+  display: block;
+}
+.mob-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 40%;
+}
+.mob-menu li {
+  margin: 20px;
+}
+.mob-menu li:hover a {
+  color: var(--primary-color);
+}
+/*-----------------------------------------------------*/

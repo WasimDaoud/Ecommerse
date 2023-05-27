@@ -1,0 +1,58 @@
+hr {
+  box-shadow: 2px 2px 2px rgb(153, 149, 149);
+}
+
+.main-address {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.form {
+  margin-top: 20px;
+  width: 90%;
+}
+
+.input {
+  height: 25px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+}
+
+.order-hr {
+  margin: 20px;
+}
+
+.order-container {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+.order-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-flex h5 {
+  font-size: 15px;
+  margin: 10px;
+}
+.order-btn {
+  width: 100%;
+  border-radius: 5px;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.order-btn:hover a {
+  color: var(--primary-color);
+}
+
+

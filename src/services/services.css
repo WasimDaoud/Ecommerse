@@ -1,0 +1,49 @@
+.services {
+  margin: 40px 0;
+}
+
+.serviceItem {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+.serviceItem span i {
+  font-size: 2rem;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px;
+  font-weight: 400 !important;
+}
+
+.serviceItem h3 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.serviceItem p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #222;
+}
+
+
+@media only screen and (max-width : 768px){
+
+  .serviceItem {
+    padding: 7px;
+    margin: 10px 0px;
+  }
+
+  .serviceItem span i {
+    font-size: 1.2rem;
+    padding: 7px;
+    font-weight: 400 !important;
+  }
+
+}

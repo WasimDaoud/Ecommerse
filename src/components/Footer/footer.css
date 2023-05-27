@@ -1,0 +1,49 @@
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 300px;
+    background: var(--primary-color);
+    padding: 30px 120px 0px ;
+}
+
+.footer .link{
+    color: rgb(161, 158, 158);
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+
+}
+
+.footer p{
+    color: rgb(161, 158, 158);
+    font-size: 15px;
+    margin: 7px;
+}
+
+.footer  h6 {
+    color: white;
+    font-weight: 500;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.copyright p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width : 768px){
+
+    .footer p{
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    .footer  h6 {
+        padding-bottom: 7px;
+        margin-top:25px;
+    }
+    
+
+}
